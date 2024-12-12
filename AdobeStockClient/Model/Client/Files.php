@@ -92,7 +92,7 @@ class Files implements FilesInterface
     /**
      * @inheritdoc
      */
-    public function execute(array $ids, array $columns, string $locale = null): array
+    public function execute(array $ids, array $columns, ?string $locale = null): array
     {
         if (empty($ids)) {
             throw new IntegrationException(__('Files ids can not be empty.'));

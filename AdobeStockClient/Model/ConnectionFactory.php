@@ -29,7 +29,7 @@ class ConnectionFactory
         string $apiKey,
         string $productName,
         string $targetEnvironment,
-        HttpInterface $httpClient = null
+        ?HttpInterface $httpClient = null
     ): AdobeStock {
         return new AdobeStock($apiKey, $productName, $targetEnvironment, $httpClient);
     }
