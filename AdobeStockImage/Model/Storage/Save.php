@@ -54,7 +54,7 @@ class Save
         Filesystem $filesystem,
         Https $driver,
         IsPathExcludedInterface $isPathExcluded,
-        int $maxFileLength = null
+        ?int $maxFileLength = null
     ) {
         $this->filesystem = $filesystem;
         $this->driver = $driver;

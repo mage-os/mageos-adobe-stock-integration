@@ -61,7 +61,7 @@ class SaveLicensedImage implements SaveLicensedImageInterface
     /**
      * @inheritdoc
      */
-    public function execute(int $mediaId, string $destinationPath = null): void
+    public function execute(int $mediaId, ?string $destinationPath = null): void
     {
         $imageUrl = $this->client->getImageDownloadUrl($mediaId);
 

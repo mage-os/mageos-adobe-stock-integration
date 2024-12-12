@@ -28,5 +28,5 @@ interface FilesInterface
      * @throws IntegrationException
      * @throws Exception
      */
-    public function execute(array $ids, array $columns, string $locale = null): array;
+    public function execute(array $ids, array $columns, ?string $locale = null): array;
 }
