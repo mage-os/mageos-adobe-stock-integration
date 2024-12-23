@@ -6,7 +6,7 @@
         "magento/framework": "*",
         "magento/module-adobe-ims-api": "*",
         "magento/module-adobe-stock-client-api": "*",
-        "astock/stock-api-libphp": "dev-develop"
+        "magento/stock-api-libphp": "dev-develop"
     },
     "type": "magento2-module",
     "license": [
