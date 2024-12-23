@@ -6,7 +6,7 @@
         "magento/framework": "*",
         "magento/module-adobe-ims-api": "*",
         "magento/module-adobe-stock-client-api": "*",
-        "astock/stock-api-libphp": "dev-php8.4_deprecations"
+        "astock/stock-api-libphp": "dev-develop"
     },
     "type": "magento2-module",
     "license": [
@@ -24,7 +24,7 @@
     "repositories": {
         "stock-api-libphp": {
             "type": "vcs",
-            "url": "git@github.com:cod62627/stock-api-libphp.git"
+            "url": "git@github.com:magento-commerce/stock-api-libphp.git"
         }
     }
 }
