@@ -24,7 +24,7 @@
     "repositories": {
         "stock-api-libphp": {
             "type": "vcs",
-            "url": "git@github.com:magento-commerce/stock-api-libphp.git"
+            "url": "git@github.com:magento-commerce/magento-stock-api-libphp.git"
         }
     }
 }
