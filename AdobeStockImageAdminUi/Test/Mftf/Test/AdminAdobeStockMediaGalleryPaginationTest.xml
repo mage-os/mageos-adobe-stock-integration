@@ -77,10 +77,12 @@
         <actionGroup ref="AdminGridAssertCurrentPageNumberActionGroup" stepKey="assertSecondPageNumber">
             <argument name="expectedCurrentPageNumber" value="{{GridPageNumberData.page2}}"/>
         </actionGroup>
-
         <!-- User change the page number to custom value -->
         <actionGroup ref="AdminGridGoToCustomPageNumberActionGroup" stepKey="goToFourthPage">
             <argument name="pageNumber" value="{{GridPageNumberData.page4}}"/>
+        </actionGroup>
+        <actionGroup ref="CliCacheCleanActionGroup" stepKey="cacheClean">
+            <argument name="tags" value=""/>
         </actionGroup>
         <actionGroup ref="AdminGridAssertCurrentPageNumberActionGroup" stepKey="assertFourthPageNumber">
             <argument name="expectedCurrentPageNumber" value="{{GridPageNumberData.page4}}"/>
